@@ -1,0 +1,234 @@
+@media (max-width: 1024px) {
+    .nav__address {
+        display: none;
+    }
+
+    .header__content {
+        min-height: 500px;
+        background-size: cover;
+    }
+
+    .header__info h1,
+    .header__info h2 {
+        font-size: 30px;
+    }
+
+    .fixtime__content {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .cars__content {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .car__card {
+        max-width: 540px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav__top-content {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .nav__bottom-content {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .brand__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header__content {
+        min-height: 400px;
+        padding-top: 30px;
+    }
+
+    .header__info {
+        max-width: 100%;
+    }
+
+    .header__info h1,
+    .header__info h2 {
+        font-size: 24px;
+    }
+
+    .header__content button {
+        font-size: 14px;
+        padding: 16px 30px;
+    }
+
+    .fixtime__content button {
+        padding: 18px 40px;
+        font-size: 14px;
+    }
+
+    .timer h3 {
+        font-size: 14px;
+    }
+
+    .car__card {
+        padding: 30px 20px;
+    }
+
+    .stock {
+        right: 20px;
+    }
+
+    .car__info h4 {
+        font-size: 18px;
+    }
+
+    .car__info p {
+        font-size: 16px;
+    }
+
+    .car__testdrive {
+        position: static;
+        margin-top: 0;
+        padding: 0 24px 10px;
+    }
+
+    .car__additions {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .card__navigation button {
+        padding: 18px;
+        font-size: 12px;
+    }
+
+    .modal__content {
+        padding: 30px 20px;
+    }
+
+    .modal__title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .nav__top-content {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .nav__logos img {
+        max-height: 22px;
+    }
+
+    .nav__number img {
+        display: none;
+    }
+
+    .number {
+        font-size: 13px;
+    }
+
+    .nav__bottom {
+        display: none;
+    }
+
+    .header__content {
+        min-height: 300px;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .header__info {
+        padding: 12px;
+    }
+
+    .header__info h1,
+    .header__info h2 {
+        font-size: 18px;
+    }
+
+    .header__content button {
+        font-size: 12px;
+        padding: 14px 24px;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .cars {
+        padding-top: 40px;
+    }
+
+    .car__card {
+        padding: 20px 15px;
+    }
+
+    .stock {
+        right: 15px;
+        font-size: 10px;
+        padding: 5px 14px;
+    }
+
+    .car__info {
+        padding: 16px;
+    }
+
+    .car__info h4 {
+        font-size: 16px;
+    }
+
+    .car__info p {
+        font-size: 14px;
+        padding-top: 12px;
+    }
+
+    .car__testdrive {
+        padding: 0 16px 10px;
+    }
+
+    .car__testdrive a {
+        font-size: 11px;
+    }
+
+    .car__addition p {
+        font-size: 11px;
+    }
+
+    .card__navigation button {
+        padding: 16px;
+        font-size: 11px;
+    }
+
+    .fixtime__content button {
+        padding: 16px 30px;
+        font-size: 13px;
+    }
+
+    .timer h3 {
+        font-size: 12px;
+    }
+
+    .modal__content {
+        padding: 24px 16px;
+        max-width: 100%;
+    }
+}
