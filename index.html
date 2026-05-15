@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <title>HAVAL тестовое задание</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__top">
+                <div class="nav__top-content container">
+                    <div class="nav__logos">
+                        <img src="./assets/icons/logo.svg" alt="">
+                        <span class="line"></span>
+                        <img src="./assets/icons/logo2.svg" alt="">
+                    </div>
+                    <div class="nav__number">
+                        <img src="./assets/icons/phone.svg" alt="">
+                        <a href="" class="number">+7 (495) 755 99 90</a>
+                    </div>
+                    <div class="nav__address">
+                        <img src="./assets/icons/marker.svg" alt="">
+                        <div class="address__info">
+                            <p class="address">МО, г. Химки, Ленинградское ш., вл.14 стр.1</p>
+                            <p class="time">Часы работы с 09:00 до 21:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav__bottom">
+                <div class="nav__bottom-content container">
+                    <ul class="brand__list">
+                        <li class="brand__name"><p>M6</p></li>
+                        <li class="brand__name"><p>DARGO X</p></li>
+                        <li class="brand__name"><p>DARGO</p></li>
+                        <li class="brand__name"><p>JOLION</p></li>
+                        <li class="brand__name"><p>F7x</p></li>
+                        <li class="brand__name"><p>F7</p></li>
+                        <li class="brand__name"><p>H9</p></li>
+                        <li class="brand__name"><p>GWM Poer</p></li>
+                        <li class="brand__name"><p>GWM Poer KINGKONG</p></li>
+                    </ul>
+                    <ul class="nav__list">
+                        <li><a class="nav__list-link" href="">ПОДОБРАТЬ КОМПЛЕКТАЦИЮ</a></li>
+                        <li><a class="nav__list-link" href="">ТЕСТ-ДРАЙВ</a></li>
+                        <li><a class="nav__list-link" href="">КОНТАКТЫ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="header__content">
+            <div class="header__info">
+                <h1>Увеличиваем выгоды на HAVAL</h1>
+                <h2>в Химках к Чёрной пятнице!</h2>
+            </div>
+            <button data-fancybox data-src="#modal-form">Зафиксировать условия</button>
+        </div>
+    </header>
+    <main class="main">
+        <section class="fixtime">
+            <div class="fixtime__content container">
+                <div class="timer">
+                    <h3>Оставьте заявку и зафиксируйте условия</h3>
+                    <div class="sinoby-timer"
+                        data-sinoby-reserve="sinoby-slo3mm"
+                        data-config='{
+                        "type": "fixed-end",
+                        "preset": "rings-soft",
+                        "schedule": {
+                            "endAt": "2026-06-01T00:00:00"
+                        },
+                        "visibility": {
+                            "separator": false
+                        },
+                        "style": {
+                            "digitGap": 8,
+                            "digitColor": "#000000",
+                            "labelSize": 18,
+                            "labelGap": 0,
+                            "labelColor": "#b9b9b9",
+                            "cardBackgroundColor": "#f8fafc",
+                            "ringCurrentColor": "#00cabf",
+                            "ringRemainingColor": "#e7e7e7"
+                        }
+                    }'
+                        data-lazy="true"></div>
+                </div>
+                <button data-fancybox data-src="#modal-form">Зафиксировать условия</button>
+            </div>
+        </section>
+        <section class="cars">
+            <div class="cars__content container">
+                <div class="car__card">
+                    <span class="stock">В наличии <p>21 автомобиль</p></span>
+                    <div class="card__content">
+                        <div class="preview">
+                            <div class="car__info">
+                                <h4>HAVAL M6</h4>
+                                <p>Выгода до <span>410 000 ₽</span></p>
+                            </div>
+                            <div class="car__testdrive">
+                                <img src="./assets/icons/pen.svg" alt="">
+                                <a href="">Записаться на тест-драйв</a>
+                            </div>
+                            <div class="car__image swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img class="car__photo" src="./assets/images/m6/черный-неметаллик.png" alt="HAVAL M6 Чёрный">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img class="car__photo" src="./assets/images/m6/белый-неметаллик.png" alt="HAVAL M6 Белый">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img class="car__photo" src="./assets/images/m6/серый-неметаллик.png" alt="HAVAL M6 Серый">
+                                    </div>
+                                </div>
+                                <img class="car__mask" src="./assets/images/mask.png" alt="">
+                            </div>
+                        </div>
+                        <div class="car__color">
+                            <button class="color__btn" data-color="./assets/images/m6/черный-неметаллик.png" style="background: #1a1a1a;"></button>
+                            <button class="color__btn" data-color="./assets/images/m6/белый-неметаллик.png" style="background: #e0e0e0;"></button>
+                            <button class="color__btn active" data-color="./assets/images/m6/серый-неметаллик.png" style="background: #b0b0b0;"></button>
+                        </div>
+                        <div class="car__additions">
+                            <div class="car__addition">
+                                <img src="./assets/icons/tags.svg" alt="">
+                                <p>Выгода по госпрограмме</p>
+                            </div>
+                            <div class="car__addition">
+                                <img src="./assets/icons/wallet.svg" alt="">
+                                <p>Максимальные выгоды по трейд-ин</p>
+                            </div>
+                            <div class="car__addition">
+                                <img src="./assets/icons/shield.svg" alt="">
+                                <p>КАСКО в подарок</p>
+                            </div>
+                            <div class="car__addition">
+                                <img src="./assets/icons/tire.svg" alt="">
+                                <p>Зимние шины в подарок</p>
+                            </div>
+                            <div class="car__addition">
+                                <img src="./assets/icons/gift.svg" alt="">
+                                <p>Доп.оборудование на 100 000р в подарок</p>
+                            </div>
+                        </div>
+                        <div class="card__navigation">
+                            <button data-fancybox data-src="#modal-form">Узнать стоимость</button>
+                            <button data-fancybox data-src="#modal-form">Рассчитать кредит</button>
+                            <button data-fancybox data-src="#modal-form">Подобрать комплектацию</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="car__card">
+                    <span class="stock">В наличии</span>
+                    <div class="card__content">
+                        <div class="preview">
+                            <div class="car__info">
+                                <h4>HAVAL DARGO X</h4>
+                                <p>Выгода до <span>320 000 ₽</span></p>
+                            </div>
+                            <div class="car__testdrive">
+                                <img src="./assets/icons/pen.svg" alt="">
+                                <a href="">Записаться на тест-драйв</a>
+                            </div>
+                            <div class="car__image swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img class="car__photo" src="./assets/images/dargox6/Агат.png" alt="DARGO X Агат">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img class="car__photo" src="./assets/images/dargox6/Черный-нефрит.png" alt="DARGO X Чёрный нефрит">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img class="car__photo" src="./assets/images/dargox6/Графитовый-кварц.png" alt="DARGO X Графитовый кварц">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img class="car__photo" src="./assets/images/dargox6/Терракотовый.png" alt="DARGO X Терракотовый">
+                                    </div>
+                                </div>
+                                <img class="car__mask" src="./assets/images/mask.png" alt="">
+                            </div>
+                        </div>
+                        <div class="car__color">
+                            <button class="color__btn" style="background: #c0c0c0;"></button>
+                            <button class="color__btn" style="background: #1a1a1a;"></button>
+                            <button class="color__btn" style="background: #4a4a4a;"></button>
+                            <button class="color__btn active" style="background: #b5451b;"></button>
+                        </div>
+                        <div class="car__additions">
+                            <div class="car__addition">
+                                <img src="./assets/icons/tags.svg" alt="">
+                                <p>Выгода по госпрограмме</p>
+                            </div>
+                            <div class="car__addition">
+                                <img src="./assets/icons/wallet.svg" alt="">
+                                <p>Максимальные выгоды по трейд-ин</p>
+                            </div>
+                            <div class="car__addition">
+                                <img src="./assets/icons/shield.svg" alt="">
+                                <p>КАСКО в подарок</p>
+                            </div>
+                            <div class="car__addition">
+                                <img src="./assets/icons/tire.svg" alt="">
+                                <p>Зимние шины в подарок</p>
+                            </div>
+                            <div class="car__addition">
+                                <img src="./assets/icons/gift.svg" alt="">
+                                <p>Доп.оборудование на 100 000р в подарок</p>
+                            </div>
+                        </div>
+                        <div class="card__navigation">
+                            <button data-fancybox data-src="#modal-form">Узнать стоимость</button>
+                            <button data-fancybox data-src="#modal-form">Рассчитать кредит</button>
+                            <button data-fancybox data-src="#modal-form">Подобрать комплектацию</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="modal-form" class="modal" style="display:none;">
+        <div class="modal__content">
+            <h3 class="modal__title">Оставьте заявку</h3>
+            <p class="modal__subtitle">Наш менеджер свяжется с вами в ближайшее время</p>
+            <form class="modal__form">
+                <div class="modal__input-wrapper">
+                    <input
+                        type="tel"
+                        class="modal__input"
+                        id="phone-input"
+                        placeholder="+7 (___) ___ __ __"
+                        required
+                    >
+                </div>
+                <button type="submit" class="modal__submit">Отправить</button>
+            </form>
+            <p class="modal__disclaimer">Нажимая кнопку, вы соглашаетесь с <a href="#">политикой конфиденциальности</a></p>
+        </div>
+    </div>
+
+    <div id="modal-success" class="modal" style="display:none;">
+        <div class="modal__content">
+            <div class="modal__icon">✓</div>
+            <h3 class="modal__title">Заявка отправлена!</h3>
+            <p class="modal__subtitle">Наш менеджер свяжется с вами в ближайшее время</p>
+            <button class="modal__submit" data-fancybox-close>Закрыть</button>
+        </div>
+    </div>
+
+    <!-- Sinoby Timer -->
+    <style>.sinoby-timer[data-sinoby-reserve="sinoby-slo3mm"]{display:block;min-height:114px;}@media(max-width:767px){.sinoby-timer[data-sinoby-reserve="sinoby-slo3mm"]{min-height:83px;}}</style>
+    <script src="https://timer.sinoby.ru/public/assets/embed/timer-core.min.js?v=20260514a"></script>
+    <!-- /Sinoby Timer -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script>
+        document.querySelectorAll('.car__card').forEach(card => {
+            const swiperEl = card.querySelector('.car__image.swiper');
+            const colorBtns = card.querySelectorAll('.color__btn');
+            let initialSlide = 0;
+            colorBtns.forEach((btn, i) => {
+                if (btn.classList.contains('active')) initialSlide = i;
+            });
+
+            const swiper = new Swiper(swiperEl, {
+                slidesPerView: 1,
+                allowTouchMove: false,
+                effect: 'fade',
+                fadeEffect: { crossFade: true },
+                initialSlide: initialSlide
+            });
+
+            colorBtns.forEach((btn, index) => {
+                btn.addEventListener('click', () => {
+                    swiper.slideTo(index);
+                    colorBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                });
+            });
+        });
+
+        const phoneInput = document.getElementById('phone-input');
+        phoneInput.addEventListener('input', function(e) {
+            let val = e.target.value.replace(/\D/g, '');
+            if (val.length > 0 && val[0] !== '7') val = '7' + val;
+            let formatted = '';
+            if (val.length > 0) formatted += '+7';
+            if (val.length > 1) formatted += ' (' + val.substring(1, 4);
+            if (val.length >= 4) formatted += ') ';
+            if (val.length > 4) formatted += val.substring(4, 7);
+            if (val.length > 7) formatted += ' ' + val.substring(7, 9);
+            if (val.length > 9) formatted += ' ' + val.substring(9, 11);
+            e.target.value = formatted;
+        });
+
+        $.fancybox.defaults.touch = false;
+
+        document.querySelector('.modal__form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const phone = document.getElementById('phone-input').value;
+            $.fancybox.close();
+            setTimeout(() => {
+                $.fancybox.open({
+                    src: '#modal-success',
+                    type: 'inline',
+                    touch: false
+                });
+                document.getElementById('phone-input').value = '';
+            }, 300);
+        });
+    </script>
+</body>
+</html>
