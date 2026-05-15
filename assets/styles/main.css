@@ -494,3 +494,37 @@ button:nth-of-type(-n+2):hover {
     justify-content: center;
     margin: 0 auto 20px;
 }
+
+.chat__btn{
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #000001;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.chat__btn:hover{
+    transform: scale(1.1);
+}
+
+.chat__btn img{
+    width: 26px;
+    height: 26px;
+    filter: brightness(0) invert(1);
+}
+
+.modal__textarea{
+    resize: vertical;
+    min-height: 80px;
+    border-bottom: 2px solid #e0e0e0;
+    font-family: var(--font-family);
+}
